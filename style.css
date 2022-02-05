@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Dongle:wght@300&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    height: 90%;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 1.8em; 
+    font-family: 'Dongle', sans-serif;
+    max-width: 700px;
+    max-height: 800px;
+    min-width: 360px;
+}
+.txt h1{
+    font-family: 'Supermercado One', cursive;
+}
+.intro img{
+    height:600px; 
+    width:500px;
+}
+h2{
+    font-family: 'Supermercado One', cursive;
+    margin: 10px;
+}
+.EL{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(73, 67, 67);
+    color: blanchedalmond;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px 0 rgb(226, 226, 226);
+}
+.EL p{
+    font-family: 'Convergence', sans-serif;
+    font-size: 90%;
+    padding: 10px;
+}
+.Awards{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.b1{
+    width: 400px;
+    height: 380px;
+    margin-top: 20px;
+    font-size: 90%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Convergence', sans-serif;
+    background-color: rgb(73, 67, 67);
+    color: blanchedalmond;
+    border-radius: 18px;
+    box-shadow: 10px 10px 8px 0 rgb(217, 217, 217);
+}
+.b1:hover{
+    color: white;
+    cursor: pointer;
+}
+.quote{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 60%;
+    background-color: rgb(51, 49, 49);
+    color: blanchedalmond;
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 8px 0 rgb(217, 217, 217);
+}
+.quote h2{
+    width: 350px;
+}
+.quote img{
+    width: 60%;
+    border-radius: 400px;
+}
+@media screen and (max-width:400px) {
+    .b1{
+        font-size: 80%;
+    }
+    .EL p{
+        font-size: 80%;
+    }
+    .intro img{
+        height:400px; 
+        width:300px;
+    }
+    .intro p{
+        font-size: 0.8em; 
+    }
+    .txt{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width:330px) {
+    .b1{
+        font-size: 70%;
+    }
+    .EL{
+        width: 70%;
+    }
+}
